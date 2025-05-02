@@ -1,0 +1,24 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+    session:
+      timeout: PT60M
+spring:
+  application:
+    name: SpringAiDemo4DeepSeek
+  profiles:
+    active: dev
+# 添加你自己的api Deepseek/OpenAi均可
+#  ai:
+#    openai:
+#      api-key:
+#      base-url:
+#      chat:
+#        options:
+#          model:
+
+
+
+
+
